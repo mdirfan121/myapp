@@ -1,0 +1,361 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <a class="navbar-brand" href="#"><img src="{% static 'img/carlogo.png' %}" height='70px' width="200px"></a>
+
+	  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contact-Us</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+<!-- navbar end -->	
+<!-- slider started -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="{% static 'img/single-slider1.jpg' %}" alt="First slide" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{% static 'img/single-slider2.jpg' %}" alt="Second slide" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="{% static 'img/single-slider3.jpg' %}" alt="Third slide" height="600px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- main slider end -->
+<!-- second part started -->
+<section class="container welcome-main" style="margin-top: 80px;">
+	 <div class="row">
+	 	 <div class="col-md-6 welcome-content" data-aos="fade-down-right" data-aos-duration="2000">
+	 	 	 <h2 style="font-weight: bold;">WELCOME TO CAR SERVICES</h2>
+	 	 	 <h3 style="line-height: 40px;">Repair Car and Service</h3><br>
+	 	 	 <P style="line-height: 20px;"><span style="color: red; font-size: 18px;">We offer a wide range of hydraulic cartridge valves, customized hydraulic integrated manifolds and valves for hydraulic breaking systems.</span><br><br>
+             We work with clients big and small across a range of sectors and we utilise all forms of media to get your name out there in a way that’s right for you. We have a number of different teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service and although we can’t boast years and years of service we can ensure you that is a good thing in this industry</P>
+	 	 </div>
+	 	 <div class="col-md-6 welcome-content" data-aos="fade-down-left" data-aos-duration="2000">
+	 	 	 <img src="{% static 'img/about.jpg' %}">
+	 	 	 <h3>WELCOME TO CAR SERVICES</h3>
+	 	 	 <P><span>We offer a wide range of hydraulic cartridge valves, customized hydraulic integrated manifolds and valves for hydraulic breaking systems.</span>
+             We work with clients big and small across a range of sectors and we utilise all forms of media to get your name out there in a way that’s right for you.</P>
+	 	 </div>
+	 </div>
+</section>
+<!-- multi slider -->
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Controls-->
+  <div class="controls-top">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+        class="fas fa-chevron-right"></i></a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example" data-slide-to="2"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider1.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider2.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider3.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider4.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider5.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-2">
+          <img class="card-img-top"
+            src="{% static 'img/multislider6.jpg' %}" alt="Card image cap" height="200" width="300">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--/.Second slide-->
+  </div>
+  <!--/.Slides-->
+</div>
+<!--/.Carousel Wrapper-->
+<!-- our latext news -->
+
+<section class="news-section" style="background-image: url({% static 'img/background-news.jpg' %});">
+	<div class="news-heading container">
+		<div class="row">
+	      <div class="auto-container news-subhead col-md-12">
+	    	<p>Check out our repair service for your car and get a free clean</p>
+	      </div>
+	    </div>
+    </div>
+    <div class="news-head container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			 <p>OUR LATEST NEWS</p>
+    			 <div class="border"></div>
+    			 <div class="border"></div>
+    		</div>
+        </div>
+    </div>
+    <div class="container tips-head">
+    	 <div class="row">
+    	 	 <div class="col-md-4 tips-content tips-content-first">
+    	 	 	  <h3>Tips for car maintainance</h3>
+    	 	 	  <p>A lot of auto repair customers question<br>
+    	 	 	  the importance of wheel alignment</p>
+    	 	 </div>
+    	 	 <div class="col-md-4 tips-content">
+    	 	 	  <h3>Tips for car maintainance</h3>
+    	 	 	  <p>A lot of auto repair customers question<br>
+    	 	 	  the importance of wheel alignment</p>
+    	 	 </div>
+    	 	 <div class="col-md-4 tips-content">
+    	 	 	  <h3>Tips for car maintainance</h3>
+    	 	 	  <p>A lot of auto repair customers question<br>
+    	 	 	  the importance of wheel alignment</p>
+    	 	 </div>
+    	 </div>
+    </div>
+</section> 
+
+<!-- review section -->
+<section class="review-section" style="background-image: url({% static 'img/background-review.jpg' %});">
+	  <div class="row">
+	  	  <div class="col-md-12">
+	  	  	  <h3>WHAT CLIENT SAYS</h3>
+	  	  </div>
+	  </div>
+	  <div class="row">
+	  	  <div class="col-md-6 review-content review-section-first">
+	  	  	 <p>"We know that sometimes it's difficult to get to the<br>
+	  	  	 	phone if you are in the middle of something and you<br>
+	  	  	    don't want to miss."<br><br><span>MD IRFAN</span></p> 
+	  	  </div>
+	  	  <div class="col-md-6 review-content">
+	  	  	  <p>"We know that sometimes it's difficult to get to the<br>
+	  	  	 	phone if you are in the middle of something and you<br>
+	  	  	    don't want to miss."<br><br><span>MD IRFAN</span></p>
+	  	  </div>
+	  </div>
+</section>
+<!-- review section end -->
+<a name="contact"></a>
+<section class="container contact">
+	
+	<div class="row">
+		<div class="col-md-12">
+			<h2>CONTACT US</h2>
+		</div>
+	</div>
+	<form  action="/" method="post">
+		{% csrf_token %}
+       <div class="form-row">
+            <div class="col left-form">
+                <input type="text" class="form-control" placeholder="First name" name="first_name">
+                <input type="text" class="form-control" placeholder="Last name" name="last_name">
+                <input type="text" class="form-control" placeholder="Email" name="email">
+            </div>
+            <div class="col right-form">
+                <input type="text" class="form-control" placeholder="Message" name="message">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+       </div>
+    </form>
+    <div class="row">
+    	 <div class="col-md-6 contact-info-left">
+    	 	 <img src="{% static 'img/contact-info-image.jpg' %}">
+    	 </div>
+    	 <div class="col-md-6 contact-info-right">
+    	 	  <h2>Contact Info</h2>
+    	 	  <span>Email</span>
+    	 	  <p>mdirfan666999@gmail.com</p>
+    	 	  <span>Phone</span>
+    	 	  <p>+91-9876543210</p>
+    	 	  <span>Address</span>
+    	 	  <p>shaheen bagh new Delhi</p>
+    	 </div>
+    </div>
+</section>
+<!-- logo section -->
+<section class="container logo">
+	<div class="row">
+		<div col-md-3>
+			<img src="{% static 'img/logo1.png' %}" height="80" width="80">
+		</div>
+		<div col-md-3>
+			<img src="{% static 'img/logo2.png' %}" height="80" width="80">
+		</div>
+		<div col-md-3>
+			<img src="{% static 'img/logo3.png' %}" height="80" width="80">
+		</div>
+		<div col-md-3>
+			<img src="{% static 'img/logo4.png' %}" height="80" width="80">
+		</div>
+	</div>
+</section>
+<!-- logo section end -->
+<!-- footer started -->
+<section class="footer" style="background-image: url({% static 'img/footer.jpg' %});">
+	 <div class="row">
+	 	 <div class="col-md-4 our-services">
+	 	 	  <h3>Our Services</h3>
+	 	 	  <p>Wheel Alignment and Installation</p>
+	 	 	  <p>Maintainance Inspaection</p>
+	 	 	  <p>Electrical System Diagnostic</p>
+	 	 	  <p>Air Condition Repair</p>
+	 	 	  <p>Engine Diagnostic And Repair</p>
+	 	 </div>
+	 	 <div class="col-md-4 instagram">
+	 	 	  <h3>Instagram</h3>
+	 	 	  <div class="row">
+	 	 	  	 <div class="first-img-instagram">
+	 	 	  	 	 <img src="{%static 'img/multislider1.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  	 <div>
+	 	 	  	 	  <img src="{%static 'img/multislider2.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  	 <div>
+	 	 	  	 	 <img src="{%static 'img/multislider3.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  </div>
+	 	 	  <div class="row second-row">
+	 	 	  	 <div class="first-img-instagram">
+	 	 	  	 	 <img src="{%static 'img/multislider4.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  	 <div>
+	 	 	  	 	  <img src="{%static 'img/multislider5.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  	 <div>
+	 	 	  	 	 <img src="{%static 'img/multislider6.jpg' %}" height="80px" width="80px">
+	 	 	  	 </div>
+	 	 	  </div>
+	 	 </div>
+	 	 <div class="col-md-4 news">
+	 	 	  <h3>Latest News</h3>
+	 	 	  <p>Get usefull Car MAintainence Tips<br><br>
+	 	 	  From Out Experts<br><br><span>10-04-2020</p>
+	 	 	   <p>Get usefull Car MAintainence Tips<br><br>
+	 	 	  From Out Experts<br><br><span>10-04-2020</p>
+	 	 </div>
+	 </div>
+</section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+</body>
+</html>

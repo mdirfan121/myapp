@@ -1,0 +1,239 @@
+#carouselExampleIndicators{
+	margin-top: -18px;
+}
+.navbar .collapse ul li{
+	padding-left: 70px;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.navbar .collapse ul .active{
+	
+}
+.navbar{
+	padding-bottom: 40px;
+}
+.navbar .navbar-brand img{
+	margin-left: 60px;
+}
+/*navbar end*/
+.carousel-multi-item{
+	margin: 50px;
+	margin-top: 80px;
+}
+/*second-part*/
+
+/*news section started*/
+.news-section{
+	height: 600px;
+	width: 100%;
+}
+.news-heading{
+	background-color: red;
+	height: 130px;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+}
+.news-subhead p{
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+.news-head p{
+	margin-top: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+.news-head .border{
+	height: 1.5px;
+	width: 100%;
+	margin-top: 20px;
+	background-color:white;
+}
+.tips-head{
+	height: 200px;
+	width: 100%;
+	margin-top: 60px;
+}
+.tips-head .tips-content{
+	height: 200px;
+	background-color: white;
+	margin: 8px;
+}
+.tips-head .tips-content-first{
+	margin-left: -40px;
+}
+.tips-head .tips-content h3{
+	color: black;
+	font-weight: bold;
+}
+.tips-head .tips-content p{
+	margin-top: 25px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .tips-head .tips-content-first{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .news-section{
+    height: 1000px;
+  }
+}
+/*news section end*/
+
+/*review section started*/
+.review-section{
+	height: 450px;
+	width: 100%;
+	margin-top: 100px;
+}
+.review-section h3{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+}
+.review-section .row{
+	width: 60%;
+	margin: auto;
+}
+.review-section .review-content{
+	height: 150px;
+	background-color: #36404b;
+	text-align: center;
+	margin: 10px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.review-section .review-section-first{
+	margin-left: -30px;
+}
+.review-section .review-content p{
+	color: white;
+	font-size: 15px;
+	margin-top: 30px;
+}
+.review-section .review-content p span{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .review-section .review-section-first{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .review-section{
+    height: 650px;
+  }
+}
+/*review part end*/
+
+/*logo part started*/
+.logo{
+	height: 100px;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+}
+.logo img{
+	padding-left: 20px;
+	margin: auto;
+	margin-left: 170px;
+}
+@media only screen and (max-width: 600px) {
+  .logo{
+    height: 400px;
+  }
+}
+/*logo part end*/
+
+/*footer started*/
+.footer{
+	height: 400px;
+	width: 100%;
+	margin-top: 50px;
+}
+.footer h3{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+.footer p{
+	text-align: center;
+	color: #c7c3c3;
+	margin-top: 30px;
+}
+.footer p span{
+	color: red;
+}
+.footer .instagram img{
+	margin: 5px;
+	margin-top: 30px;
+}
+.footer .instagram .first-img-instagram img{
+   margin-left: 100px;
+}
+.footer .instagram .second-row{
+	margin-top: -15px;
+}
+@media only screen and (max-width: 600px) {
+  .footer{
+    height: 1000px;
+  }
+}
+/*footer end*/
+.contact{
+	margin-top: 100px;
+}
+.contact h2{
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.contact .left-form input{
+	margin: 30px;
+	width: 450px;
+	height: 50px;
+}
+.contact .right-form input{
+	margin: 30px;
+	width: 450px;
+	height: 120px;
+}
+.contact .right-form button{
+	margin: 30px;
+	width: 450px;
+	height: 50px;
+	margin-top: 10px;
+}
+.contact .contact-info-left{
+	height: 400px;
+    margin-top: 30px;
+}
+.contact .contact-info-left img{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.contact .contact-info-right{
+	text-align: center;
+	margin-top: 70px;
+}
+.contact .contact-info-right span{
+	color: red;
+	font-size: 20px;
+}
+.contact .contact-info-right p{
+	color: black;
+}
